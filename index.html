@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Temp_conv</title>
+    <link rel="stylesheet" href="style.css" 
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Temparature Converter</h1>
+    <div class="contain">
+        <div class="content">
+            <h3>Celsius to Fahrenheit</h3>
+            <form id="temp" onsubmit="return false">
+                <label for="tempince1">Enter the temperature(in celcius)</label>
+                <br><br>
+                <input id="tempice1" type="text">
+                <br>
+                <button onclick="celtofah()">Submit</button>
+                <button onclick="eraseText1()">Clear</button>
+            </form>
+            <br><br>
+            <h3>Temparature converted to fahrenheit</h3>
+            <p id="anscel"></p>
+            </div>
+        </div>
+        <div class="contain1">
+            <div class="content">
+                <h3>Fahrenheit to Celsius</h3>
+            <form id="temp" onsubmit="return false">
+                <label for="tempinfah">Enter the temparture(in fahrenheit):</label>
+                <br><br>
+                <input id="tempinfah" type="text">
+                <br>
+                <button onclick="fahtocel()">Submit</button>
+                <button onclick="eraseText2()">Clear</button>
+            </form>
+            <h4>Temparature converted in Celsius</h4>
+           </div>
+        </div>
+</body>
+</html>
